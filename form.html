@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <label for="fullname">Name:</label>
+        <input type="text" name="fullname" id="fullname" placeholder="Enter your name"><br>
+        <!-- Email -->
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" placeholder="Enter your email" name="email" id="name"><br>
+        <!-- password -->
+        <label for="psw">Password:</label>
+        <input type="password" placeholder="Enter your password" minlength="8" name="psw" id="psw"><br>
+       <!--number input -->
+       <label for="age">Age:</label>
+        <input type="number" name="age" id="age" placeholder="Enter your age" min="1" max="100"><br>
+        <!-- radio button -->
+         <P>Gender</P>
+            <input type="radio" name="gender" id="male" value="male">
+            <label for="gender">Male</label>
+            <input type="radio" name="gender" id="female" value="female">
+            <label for="gender">Female</label>
+            <input type="radio" name="gender" id="Others" value="Others">
+            <label for="gender">Others</label>
+        <!-- checkbox -->
+         <p>Technologies</p>
+           <input type="checkbox" name="html" id="html" value="html">
+           <label for="html">HTML</label>
+           <input type="checkbox" name="css" id="css" value="css">
+           <label for="css">CSS</label>
+           <input type="checkbox" name="js" id="js" value="js">
+           <label for="js">JavaScript</label><br>
+           <!-- dropdown -->
+              <label for="country">Country:</label>
+                <select name="country" id="country">
+                    <option value="india">India</option>
+                    <option value="usa">USA</option>
+                    <option value="uk">UK</option>
+                    <option value="australia">Australia</option>
+            </select><br>
+            <!-- text screen -->
+            <label for="message">Message:</label>
+                <textarea name="message" id="message" cols="30" rows="10" placeholder="Enter your message"></textarea><br>
+        <!-- file upload -->
+        <label for="file">Upload your file:</label>
+        <input type="file" name="file" id="file"><br>   
+        <!-- date picker -->
+        <label for="birthdate">Birth Date:</label>
+        <input type="date" name="birthdate" id="birthdate"><br>
+        <!--button--> 
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+    </form>
+
+</body>
+</html>
